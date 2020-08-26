@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 
 import {ContainerMain, Card, AboutMe} from './styles';
 
+import SocialNetwork from '../../components/SocialNetwork'
+
 function Main(){
     return (
         <ContainerMain>
@@ -52,17 +54,10 @@ function Main(){
                 </Link>
 
                 <div id="social-network">
-                    <img src="https://avatars3.githubusercontent.com/u/38691922?s=460&u=15bef1407f3b726d239ab6231abb210aab46b9ac&v=4" alt="profile"/>
-                    
-                    <a target="_blank" href="https://www.linkedin.com/in/patrickmota10/">
-                        <FaLinkedin/>
-                        <p>LinkedIn</p>
-                    </a>
-                    <a target="_blank" href="https://github.com/Patrick-Wilker">
-                        <FaGithub/>
-                        <p>GitHub</p>
-                    </a>
+                    <SocialNetwork/>
                 </div>
+
+                
                 
             </Card>
             <AboutMe>
@@ -96,17 +91,9 @@ function Main(){
                 </div>
 
                 <div id="social-network">
-                    <img src="https://avatars3.githubusercontent.com/u/38691922?s=460&u=15bef1407f3b726d239ab6231abb210aab46b9ac&v=4" alt="profile"/>
-                    
-                    <a target="_blank" href="https://www.linkedin.com/in/patrickmota10/">
-                        <FaLinkedin/>
-                        <p>LinkedIn</p>
-                    </a>
-                    <a target="_blank" href="https://github.com/Patrick-Wilker">
-                        <FaGithub/>
-                        <p>GitHub</p>
-                    </a>
+                    <SocialNetwork/>
                 </div>
+                
                 
                 
             </AboutMe>

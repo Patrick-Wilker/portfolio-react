@@ -73,37 +73,12 @@ export const Card = styled.div`
         grid-area: card;
 
         #social-network{
-        display: flex;
-        align-items: center;
-
-        margin-top: 30px;
-        font-weight:normal;
-        
-        img{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            margin-right: 20px
-        }
-
-        p{
-            margin: 0 10px;
-        }
-
-        a{
-            color: #F4F4F4;
             display: flex;
             align-items: center;
-            margin: 0 10px;
 
-            transition: 0.5s;
+            margin-top: 30px;
+
         }
-
-        a:hover{
-            transform: scale(1.1)
-        }
-
-    }
 
     }
 `;
@@ -174,30 +149,6 @@ export const AboutMe = styled.div`
 
         position: absolute;
         bottom: 20px;
-
-        img{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            margin-right: 20px
-        }
-
-        p{
-            margin: 0 10px;
-        }
-
-        a{
-            color: #F4F4F4;
-            display: flex;
-            align-items: center;
-            margin: 0 10px;
-
-            transition: 0.5s;
-        }
-
-        a:hover{
-            transform: scale(1.1)
-        }
 
     }
 

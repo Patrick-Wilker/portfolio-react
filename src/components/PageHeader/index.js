@@ -6,7 +6,6 @@ import {FaArrowLeft} from 'react-icons/fa';
 
 import {Header} from './styles';
 
-
 export default class PageHeader extends React.Component {
     render() {
       return (
