@@ -4,6 +4,7 @@ export const ContainerMain = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    
 
     @media only screen and (max-width: 750px){
         display: grid;
