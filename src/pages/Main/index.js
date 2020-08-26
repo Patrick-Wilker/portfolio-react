@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {FaGithub, FaLinkedin, FaDesktop, FaMobileAlt} from 'react-icons/fa';
+import {FaDesktop, FaMobileAlt} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 
 import {ContainerMain, Card, AboutMe} from './styles';
@@ -93,8 +93,6 @@ function Main(){
                 <div id="social-network">
                     <SocialNetwork/>
                 </div>
-                
-                
                 
             </AboutMe>
         </ContainerMain>

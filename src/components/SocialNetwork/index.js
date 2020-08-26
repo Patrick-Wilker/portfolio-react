@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import api from '../../services/apiGithub';
 import {FaGithub, FaLinkedin, FaSpinner} from 'react-icons/fa';
 
-import {Footer, Loading} from './styles';
+import {Footer} from './styles';
 
 export default class SocialNetwork extends Component {
 
