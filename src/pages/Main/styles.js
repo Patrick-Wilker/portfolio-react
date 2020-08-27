@@ -76,7 +76,7 @@ export const Card = styled.div`
             display: flex;
             align-items: center;
 
-            margin-top: 30px;
+            margin: 10px 0 5px;
 
         }
 
@@ -148,7 +148,7 @@ export const AboutMe = styled.div`
         align-items: center;
 
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
 
     }
 
