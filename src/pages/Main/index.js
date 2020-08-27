@@ -16,7 +16,6 @@ function Main(){
                     <div className="cardContent">
                         <div className="cardHeader">
                             <span>SEE MY</span>
-                            <img src="" alt=""/>
                         </div>
                         <h1>Blog</h1>
                         <span>Some posts like tutorials, programming tips and more</span>
@@ -26,7 +25,6 @@ function Main(){
                     <div className="cardContent">
                         <div className="cardHeader">
                             <span>SEE SOME</span>
-                            <img src="" alt=""/>
                         </div>
                         <h1>Projects</h1>
                         <span>See some projects I have developed or participated</span>
@@ -36,7 +34,6 @@ function Main(){
                     <div className="cardContent">
                         <div className="cardHeader">
                             <span>TALK TO ME</span>
-                            <img src="" alt=""/>
                         </div>
                         <h1>Contact</h1>
                         <span>Do you have a project in mind? So contact me and let's make it happen</span>
@@ -46,7 +43,6 @@ function Main(){
                     <div className="cardContent">
                         <div className="cardHeader">
                             <span>SEE MY</span>
-                            <img src="" alt=""/>
                         </div>
                         <h1>Resume</h1>
                         <span>Find out more about me by viewing my resume</span>

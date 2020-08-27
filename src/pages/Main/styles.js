@@ -52,11 +52,18 @@ export const Card = styled.div`
 
     .cardHeader{
         margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         span{
             font-size: 11px;
             font-weight: bold;
             color: #F4F4F4;
             letter-spacing: 2px;
+        }
+        .icon{
+            color:  #03BADC;
+            font-size: 20px;
         }
     }
 

@@ -17,9 +17,15 @@ const GlobalStyle = createGlobalStyle`
         background: #121214;
         -webkit-font-smoothing: antialiased !important;
     }
+    ::-webkit-scrollbar {
+        width:3px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background:#93939D;
+    }
+ 
 
     body, input, button {
-        color: #222;
         font-size: 14px;
         font-family: 'Arial', sans-serif;
     }
