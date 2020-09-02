@@ -53,6 +53,10 @@ export const ContainerProjects = styled.div`
         background: url('https://camo.githubusercontent.com/705d29784ceee92dd6aa56378e9ce5842ac7133e/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656c6961736763662f696d6167652f75706c6f61642f76313538373530393539362f476f4261726265722f6d6f636b75705f6f63676769742e706e67') no-repeat;
         background-size: cover;
     }
+    .img-beautyshoes{
+        background: url('https://user-images.githubusercontent.com/38691922/91891501-87a8e180-ec67-11ea-9ce9-94bcaef541d4.png') no-repeat;
+        background-size: cover;
+    }
 
     ul{
         list-style-type:none;
