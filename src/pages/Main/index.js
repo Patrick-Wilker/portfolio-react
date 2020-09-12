@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {FaDesktop, FaMobileAlt} from 'react-icons/fa';
+import {FaDesktop} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 
 import {ContainerMain, Card, AboutMe} from './styles';
@@ -79,10 +79,6 @@ function Main(){
                     <div>
                         <FaDesktop/>
                         <p>- WEB APPLICATIONS</p> 
-                    </div>
-                    <div>
-                        <FaMobileAlt/>
-                        <p>- MOBILE APPLICATIONS</p> 
                     </div>
                 </div>
 

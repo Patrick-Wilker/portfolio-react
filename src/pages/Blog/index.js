@@ -15,6 +15,24 @@ function Blog(){
 
             <ContainerBlog>
                 <ul className="post">
+                    <a href="https://medium.com/@patrickvieiramota/deploy-de-aplica%C3%A7%C3%A3o-react-no-netlify-40c5be8ac677" target="_blank">
+                        <li className="post">
+                            <div className="img img-post02"></div>
+                            <section>
+                                <div className="tags">
+                                    <FaTags/>
+                                    <p>React, Netligy, Deploy, Comandos, Terminal</p>
+                                </div>
+                                <div className="text">
+                                    <h1>Deploy de aplicação React no Netlify</h1>
+                                    <p>Se você precisa fazer o deploy de sua aplicação React o Netlify será uma boa escolha</p>
+                                </div>
+                                <div className="date">
+                                    <span>Sep 09, 2020 · 1 min read</span>
+                                </div>
+                            </section>
+                        </li>
+                    </a>
                     <a href="https://medium.com/@patrickvieiramota/programadores-e-suas-maldi%C3%A7%C3%B5es-b888bcddc3ce" target="_blank">
                         <li className="post">
                             <div className="img img-post01"></div>

@@ -4,9 +4,12 @@ export const ContainerBlog = styled.div`
     width: 80%;
     padding: 0 40px 40px;
 
-    position: relative;
     li{
         display: flex;
+        margin-bottom: 50px;
+    }
+    section{
+        position: relative;
     }
     .tags{
         display: flex;
@@ -32,7 +35,7 @@ export const ContainerBlog = styled.div`
         span{
             color: #93939D;
             position: absolute;
-            bottom: 40px;;
+            bottom: 0;
         }
     }
 
@@ -43,6 +46,11 @@ export const ContainerBlog = styled.div`
     }
     .img-post01{
         background: url('https://miro.medium.com/max/700/1*oVYrWwNiJ5FIauPpW1GW9w.jpeg') no-repeat;
+        background-size: cover;
+        margin-right: 30px;
+    }
+    .img-post02{
+        background: url('https://miro.medium.com/max/700/1*JMXPf_ROkIL05DDhbb7p-w.png') no-repeat;
         background-size: cover;
         margin-right: 30px;
     }
@@ -67,6 +75,12 @@ export const ContainerBlog = styled.div`
 
         section{
             width: 100%;
+        }
+
+        .date{
+            span{
+                bottom: -30px;
+            }
         }
     }
     @media only screen and (max-width: 750px){

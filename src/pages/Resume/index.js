@@ -87,7 +87,6 @@ export default class Resume extends Component{
                                     <li>CSS</li>
                                     <li>Node.js</li>
                                     <li>ReactJS</li>
-                                    <li>React Native</li>
                                 </ul>
                             </div>
 

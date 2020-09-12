@@ -16,6 +16,14 @@ function Project(){
         <ContainerProjects>
             <ul className="projects">
                 <li className="project-item">
+                    <div className="img img-caoamigo"></div>
+                    <p>Cão Amigo</p>
+                    <a href="https://github.com/Patrick-Wilker/cao-amigo" target="_blank">
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
+                    </a>
+                </li>
+                <li className="project-item">
                     <div className="img img-beautyshoes"></div>
                     <p>Beauty Shoes</p>
                     <a href="https://github.com/Patrick-Wilker/beauty-shoes" target="_blank">

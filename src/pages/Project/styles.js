@@ -57,6 +57,10 @@ export const ContainerProjects = styled.div`
         background: url('https://user-images.githubusercontent.com/38691922/91891501-87a8e180-ec67-11ea-9ce9-94bcaef541d4.png') no-repeat;
         background-size: cover;
     }
+    .img-caoamigo{
+        background: url('https://user-images.githubusercontent.com/38691922/92633865-ce22bf80-f2a9-11ea-86c8-19f6dd8cf8b3.png') no-repeat;
+        background-size: cover;
+    }
 
     ul{
         list-style-type:none;
