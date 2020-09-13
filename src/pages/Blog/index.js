@@ -21,7 +21,7 @@ function Blog(){
                             <section>
                                 <div className="tags">
                                     <FaTags/>
-                                    <p>React, Netligy, Deploy, Comandos, Terminal</p>
+                                    <p>React, Netlify, Deploy, Comandos, Terminal</p>
                                 </div>
                                 <div className="text">
                                     <h1>Deploy de aplicação React no Netlify</h1>
