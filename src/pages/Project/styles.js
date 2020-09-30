@@ -50,7 +50,7 @@ export const ContainerProjects = styled.div`
         background-size: cover;
     }
     .img-gobarber{
-        background: url('https://camo.githubusercontent.com/705d29784ceee92dd6aa56378e9ce5842ac7133e/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f656c6961736763662f696d6167652f75706c6f61642f76313538373530393539362f476f4261726265722f6d6f636b75705f6f63676769742e706e67') no-repeat;
+        background: url('https://user-images.githubusercontent.com/38691922/93595019-4f0a4700-f98d-11ea-8313-00aae8c44fc8.png') no-repeat;
         background-size: cover;
     }
     .img-beautyshoes{
@@ -59,6 +59,10 @@ export const ContainerProjects = styled.div`
     }
     .img-caoamigo{
         background: url('https://user-images.githubusercontent.com/38691922/92633865-ce22bf80-f2a9-11ea-86c8-19f6dd8cf8b3.png') no-repeat;
+        background-size: cover;
+    }
+    .img-marvel{
+        background: url('https://user-images.githubusercontent.com/38691922/94723986-f4c79980-032f-11eb-851b-6ba8ba4fbdaa.png') no-repeat;
         background-size: cover;
     }
 
