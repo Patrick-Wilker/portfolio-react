@@ -12,7 +12,7 @@ Para rodar o projeto você deve installar todas as dependências, ``` yarn insta
 
 Será aberto no endereço <strong>http://localhost:8080/</strong>
   
-<h2>Atualiando...</h2>
+<h2>Atualizando...</h2>
 
 Se for adicionado alguma melhoria no projeto ou nova funcionalidade deve ser rodado o comando ``` yarn build ``` e depois  ``` yarn start ``` novamente para
 que seja possível ver as mudanças na porta 8080.
