@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const ContainerMain = styled.div`
     display: flex;
@@ -17,12 +17,26 @@ export const ContainerMain = styled.div`
 
 `;
 
+const animationCard = keyframes`
+  from{
+    transform: translate(-100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
+
 export const Card = styled.div`
     width: 45%;
     padding: 20px;
     color: #EBEBEB;
     font-weight: bold;
     letter-spacing: 2px;
+
+    animation-name: ${animationCard};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
 
     .cardContent{
         background: #202024;
@@ -90,6 +104,15 @@ export const Card = styled.div`
     }
 `;
 
+const animationAboutMe = keyframes`
+  from{
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
+
 export const AboutMe = styled.div`
     padding: 20px;
     width: 45%;
@@ -97,6 +120,11 @@ export const AboutMe = styled.div`
     position: relative;
 
     color: white;
+
+    animation-name: ${animationAboutMe};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
 
     #apresentation{
         span{

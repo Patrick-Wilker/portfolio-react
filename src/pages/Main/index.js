@@ -68,9 +68,10 @@ function Main(){
                         experiences to people.
                     </span>
                     <p>
-                        I'm a fullstack developer with knowledge in PHP, MySQL, JS, HTML, CSS, Node and 
-                        React. I am an academic in Bachelor of Information Systems at 
-                        IFNMG - Campus Arinos, where I work at the Software Factory.
+                        I am a fullstack developer with knowledge in PHP, MySQL, JS, HTML, CSS, Node, React, Python
+                         and C. I am an academic Bachelor in Information Systems at IFNMG - Campus Arinos, 
+                         where I worked at the Software Factory and as an Algorithm Monitor and Programming in C 
+                         language. I am currently working at TECNA Sistemas as a Web Developer.
                     </p>
                 </div>
 

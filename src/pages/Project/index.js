@@ -16,6 +16,22 @@ function Project(){
         <ContainerProjects>
             <ul className="projects">
                 <li className="project-item">
+                    <div className="img img-bank-elixir"></div>
+                    <p>Bank Elixir</p>
+                    <a href="https://github.com/Patrick-Wilker/bank-elixir" target="_blank">
+                        <p>In development</p> 
+                        <FaCode/>
+                    </a>
+                </li>
+                <li className="project-item">
+                    <div className="img img-whats"></div>
+                    <p>Abrir whats</p>
+                    <a href="https://github.com/Patrick-Wilker/abrir-whats" target="_blank">
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
+                    </a>
+                </li>
+                <li className="project-item">
                     <div className="img img-marvel"></div>
                     <p>Marvel</p>
                     <a href="https://github.com/Patrick-Wilker/marvel" target="_blank">
@@ -43,16 +59,16 @@ function Project(){
                     <div className="img img-gympoint"></div>
                     <p>Gym Point</p>
                     <a href="https://github.com/Patrick-Wilker/gympoint-api" target="_blank">
-                        <p>In development</p> 
-                        <FaCode/>
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
                     </a>
                 </li>
                 <li className="project-item">
                     <div className="img img-gobarber"></div>
                     <p>GoBarber</p>
                     <a href="https://github.com/Patrick-Wilker/gobarber-api" target="_blank">
-                        <p>In development</p> 
-                        <FaCode/>
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
                     </a>
                 </li>
                 <li className="project-item">

@@ -9,12 +9,27 @@ const rotate = keyframes`
     }
 `;
 
+const animationResume = keyframes`
+  from{
+    transform: translate(0%, 100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
+
+
 export const ContainerResume = styled.div`
     ${props => props.loading && css`
         svg{
             animation: ${rotate} 2s linear infinite;
         }
     `}
+
+    animation-name: ${animationResume};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
     
     background: #202024;
     width: 70%;

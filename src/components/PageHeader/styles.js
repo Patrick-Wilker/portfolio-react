@@ -1,11 +1,26 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+
+const animationHeader = keyframes`
+  from{
+    transform: translate(-100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
 
 export const Header = styled.div`
     padding: 40px;
 
+    animation-name: ${animationHeader};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
+
     .top-bar-container{
         a{
-            display: flex;
+            display: inline-flex;
             text-decoration: none;
             color: #FFFFFF;
             font-size: 20px;

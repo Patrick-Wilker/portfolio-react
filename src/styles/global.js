@@ -28,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
     body, input, button {
         font-size: 14px;
         font-family: 'Arial', sans-serif;
+        overflow-x: hidden;
     }
 
     a{

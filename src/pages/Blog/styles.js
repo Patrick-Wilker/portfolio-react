@@ -1,8 +1,23 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+
+const animationBlog = keyframes`
+  from{
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
 
 export const ContainerBlog = styled.div`
     width: 80%;
     padding: 0 40px 40px;
+
+    animation-name: ${animationBlog};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
 
     li{
         display: flex;
@@ -10,6 +25,8 @@ export const ContainerBlog = styled.div`
     }
     section{
         position: relative;
+
+        width: 50%;
     }
     .tags{
         display: flex;
@@ -54,6 +71,11 @@ export const ContainerBlog = styled.div`
         background-size: cover;
         margin-right: 30px;
     }
+    .img-post03{
+        background: url('https://blog.pluga.co/uploads/2018/05/zendesk-o-que-e-1.png') no-repeat;
+        background-size: cover;
+        margin-right: 30px;
+    }
 
     @media only screen and (max-width: 1210px){
         width: 100%;
@@ -66,6 +88,10 @@ export const ContainerBlog = styled.div`
     @media only screen and (max-width: 850px){
         li{
             display: block;
+
+            padding-bottom: 40px;
+            border-bottom: 1px solid #93939D;
+            margin-bottom: 40px;
         }
         .img{
             width: 100%;

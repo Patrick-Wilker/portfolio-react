@@ -15,6 +15,24 @@ function Blog(){
 
             <ContainerBlog>
                 <ul className="post">
+                    <a href="https://medium.com/@patrickvieiramota/zendesk-configurando-ambiente-no-windows-10-b30999454e9f" target="_blank">
+                        <li className="post">
+                            <div className="img img-post03"></div>
+                            <section>
+                                <div className="tags">
+                                    <FaTags/>
+                                    <p>Zendesk, Windows 10, Ruby, Configuration, Devkit</p>
+                                </div>
+                                <div className="text">
+                                    <h1>Zendesk: configurando ambiente no Windows 10</h1>
+                                    <p>Aprenda a configurar o ambiente de desenvolvimento do Zendesk no Windows 10 de forma fácil</p>
+                                </div>
+                                <div className="date">
+                                    <span>Nov 16, 2020 · 1 min read</span>
+                                </div>
+                            </section>
+                        </li>
+                    </a>
                     <a href="https://medium.com/@patrickvieiramota/deploy-de-aplica%C3%A7%C3%A3o-react-no-netlify-40c5be8ac677" target="_blank">
                         <li className="post">
                             <div className="img img-post02"></div>

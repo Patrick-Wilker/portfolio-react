@@ -1,7 +1,21 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const animationProjects = keyframes`
+  from{
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+`;
 
 export const ContainerProjects = styled.div`
     padding: 0 40px 40px;
+
+    animation-name: ${animationProjects};
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+	animation-fill-mode: both;
 
     .img{
         width: 300px;
@@ -220,6 +234,38 @@ export const ContainerProjects = styled.div`
         }
     }
 
+    .img-whats{
+        background: url('https://user-images.githubusercontent.com/38691922/103040958-c1259580-4553-11eb-9c06-ba9a1ebd215e.jpeg') no-repeat;
+        background-size: cover;
+        
+        transition: .3s;
+	
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE */
+
+        &:hover{
+            -webkit-filter: none;	
+            filter: none;	
+        }
+    }
+
+    .img-bank-elixir{
+        background: url('https://lh3.googleusercontent.com/proxy/vW_Bqm_4zxofq4_i1OXW5xd-iNvax8LT_UX0knvBhmV6qPBqxlGggRNh9DoU0Vg2qEY0oDi_jIzZErK4zu4u0a2qTGB1VQfyQ62L6nTMHIePSYh6P0NSOtixYRcHd3_VJSzl5cBU') no-repeat;
+        background-size: cover;
+        
+        transition: .3s;
+	
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE */
+
+        &:hover{
+            -webkit-filter: none;	
+            filter: none;	
+        }
+    }
+
     ul{
         list-style-type:none;
         display: grid;
@@ -268,6 +314,8 @@ export const ContainerProjects = styled.div`
         .img{
             width: 90%;
             height: 200px;
+            background-color: gray;
+            
         }
 
         ul{
