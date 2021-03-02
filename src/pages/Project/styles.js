@@ -251,7 +251,55 @@ export const ContainerProjects = styled.div`
     }
 
     .img-bank-elixir{
-        background: url('https://lh3.googleusercontent.com/proxy/vW_Bqm_4zxofq4_i1OXW5xd-iNvax8LT_UX0knvBhmV6qPBqxlGggRNh9DoU0Vg2qEY0oDi_jIzZErK4zu4u0a2qTGB1VQfyQ62L6nTMHIePSYh6P0NSOtixYRcHd3_VJSzl5cBU') no-repeat;
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOoOfiuZnIWWuCzRoo3XGjA74FQ5IU7GLjtg&usqp=CAU') no-repeat;
+        background-size: cover;
+        
+        transition: .3s;
+	
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE */
+
+        &:hover{
+            -webkit-filter: none;	
+            filter: none;	
+        }
+    }
+
+    .img-pomodoro{
+        background: url('https://user-images.githubusercontent.com/38691922/109582991-e8fa2200-7add-11eb-8d61-124dea535d9f.png') no-repeat;
+        background-size: cover;
+        
+        transition: .3s;
+	
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE */
+
+        &:hover{
+            -webkit-filter: none;	
+            filter: none;	
+        }
+    }
+
+    .img-squad-management-tool{
+        background: url('https://user-images.githubusercontent.com/38691922/109583383-98cf8f80-7ade-11eb-896d-0db197245c83.png') no-repeat;
+        background-size: cover;
+        
+        transition: .3s;
+	
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE */
+
+        &:hover{
+            -webkit-filter: none;	
+            filter: none;	
+        }
+    }
+    .img-payment-account{
+        background: url('https://img.freepik.com/vetores-gratis/acesso-a-operacoes-bancarias-via-internet_24908-60038.jpg?size=626&ext=jpg') no-repeat;
+    
         background-size: cover;
         
         transition: .3s;
@@ -299,6 +347,12 @@ export const ContainerProjects = styled.div`
         transform: scale(1.05)
     }
 
+    @media only screen and (max-width: 2560px){
+        img{
+            background-color: gray;
+        }
+    }
+
     @media only screen and (max-width: 1300px){
         .img{
             width: 90%;
@@ -314,8 +368,6 @@ export const ContainerProjects = styled.div`
         .img{
             width: 90%;
             height: 200px;
-            background-color: gray;
-            
         }
 
         ul{

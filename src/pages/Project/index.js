@@ -15,6 +15,30 @@ function Project(){
         />
         <ContainerProjects>
             <ul className="projects">
+            <li className="project-item">
+                    <div className="img img-payment-account"></div>
+                    <p>Payment account</p>
+                    <a href="https://github.com/Patrick-Wilker/payment-account" target="_blank">
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
+                    </a>
+                </li>
+                <li className="project-item">
+                    <div className="img img-squad-management-tool"></div>
+                    <p>Squad management tool</p>
+                    <a href="https://github.com/Patrick-Wilker/squad-management-tool" target="_blank">
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
+                    </a>
+                </li>
+                <li className="project-item">
+                    <div className="img img-pomodoro"></div>
+                    <p>Pomodoro</p>
+                    <a href="https://github.com/Patrick-Wilker/pomodoro" target="_blank">
+                        <p>Open Project</p> 
+                        <FaExternalLinkAlt/>
+                    </a>
+                </li>
                 <li className="project-item">
                     <div className="img img-bank-elixir"></div>
                     <p>Bank Elixir</p>
